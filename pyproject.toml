@@ -1,0 +1,12 @@
+[project]
+name = "ak-ml-art"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ffmpeg-python>=0.2.0",
+    "opencv-python>=5.0.0.93",
+    "streamlink>=8.6.3",
+    "ultralytics>=8.4.193",
+]
