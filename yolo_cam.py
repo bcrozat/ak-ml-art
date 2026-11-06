@@ -26,8 +26,9 @@ def yolo_cam(cam_n=0, res=(640, 840), model=YOLO("models/yolo11n.pt"), record=Fa
         out.release()
     cv2.destroyAllWindows()
 
-yolo_cam(cam_n=0,
-            res=(640, 480),
+yolo_cam(cam_n=1,
+            # res=(640, 480), # cam_n=0
+            res=(1280, 720), # logitech c505 cam_n=0
             model=model,
             record=True,
             output="output/yolo_cam.avi")
